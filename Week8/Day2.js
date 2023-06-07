@@ -51,14 +51,14 @@ const selectionSort = (nums = []) => {
 }
 // Or with a ternery
 
-const selectionSort = (nums = []) => {
-    for(let i= 0; i<nums.length-1; i++){
-        for(let j= i+1; j<nums.length; j++){
-            nums[i] > nums[j] ? [nums[i], nums[j]] = [nums[j], nums[i]]: true
-        }
-    }
-    return nums
-}
+// const selectionSort = (nums = []) => {
+//     for(let i= 0; i<nums.length-1; i++){
+//         for(let j= i+1; j<nums.length; j++){
+//             nums[i] > nums[j] ? [nums[i], nums[j]] = [nums[j], nums[i]]: true
+//         }
+//     }
+//     return nums
+// }
 
 const numsRandomOrder = [9, 2, 5, 6, 4, 3, 7, 10, 1, 8];
 const numsReversed = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
