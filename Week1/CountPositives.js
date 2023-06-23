@@ -1,13 +1,11 @@
-let countPositives = 0;
-let numbers = [3, 4, -2, 7, 16, -8, 0];
-
-// your code here!
-
 // How do we check if it's positive? 
 // We can check if the values are greater than 0. 
 
 // We'll need a loop to go through the array.
 // We'll need a conditional to check the value for if it's positive.
+let countPositives = 0;
+let numbers = [3, 4, -2, 7, 16, -8, 0];
+
 function checkPositives(numbers){
     var positive =[];
     for(var i=0;i<numbers.length;i++){
